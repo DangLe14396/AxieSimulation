@@ -1,0 +1,139 @@
+
+axie.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: true
+  xy: 919, 8
+  size: 304, 250
+  orig: 304, 250
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 4, 8
+  size: 680, 532
+  orig: 680, 532
+  offset: 0, 0
+  index: -1
+body-pattern
+  rotate: false
+  xy: 1971, 466
+  size: 59, 67
+  orig: 59, 67
+  offset: 0, 0
+  index: -1
+ear-left
+  rotate: true
+  xy: 1155, 316
+  size: 192, 244
+  orig: 192, 244
+  offset: 0, 0
+  index: -1
+ear-right
+  rotate: false
+  xy: 1173, 40
+  size: 226, 272
+  orig: 226, 272
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 1955, 50
+  size: 204, 50
+  orig: 204, 50
+  offset: 0, 0
+  index: -1
+eyes-angry
+  rotate: true
+  xy: 1729, 22
+  size: 232, 90
+  orig: 232, 90
+  offset: 0, 0
+  index: -1
+eyes-shut
+  rotate: true
+  xy: 1977, 258
+  size: 204, 48
+  orig: 204, 48
+  offset: 0, 0
+  index: -1
+horn
+  rotate: true
+  xy: 1561, 40
+  size: 214, 164
+  orig: 214, 164
+  offset: 0, 0
+  index: -1
+leg-back-left
+  rotate: false
+  xy: 1823, 4
+  size: 128, 110
+  orig: 128, 110
+  offset: 0, 0
+  index: -1
+leg-back-right
+  rotate: true
+  xy: 1823, 118
+  size: 136, 128
+  orig: 136, 128
+  offset: 0, 0
+  index: -1
+leg-front-left
+  rotate: false
+  xy: 1847, 390
+  size: 120, 124
+  orig: 120, 124
+  offset: 0, 0
+  index: -1
+leg-front-right
+  rotate: false
+  xy: 1847, 258
+  size: 126, 128
+  orig: 126, 128
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 1729, 258
+  size: 162, 114
+  orig: 162, 114
+  offset: 0, 0
+  index: -1
+mouth-bite
+  rotate: true
+  xy: 1625, 258
+  size: 230, 100
+  orig: 230, 100
+  offset: 0, 0
+  index: -1
+mouth-eat
+  rotate: true
+  xy: 2009, 97
+  size: 157, 53
+  orig: 157, 53
+  offset: 0, 0
+  index: -1
+mouth-open
+  rotate: false
+  xy: 1403, 330
+  size: 218, 174
+  orig: 218, 174
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1403, 40
+  size: 286, 154
+  orig: 286, 154
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 688, 8
+  size: 358, 227
+  orig: 358, 227
+  offset: 0, 0
+  index: -1
