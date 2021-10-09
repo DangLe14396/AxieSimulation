@@ -36,7 +36,8 @@ public class GameUI : Panel
     }
     public void OpenPause()
     {
-        SettingPanel.Instance.SetUp(true);
+        Close();
+        GameController.Instance.Close();
 
     }
     public void SetUp(int level, GameMode mode)

@@ -23,8 +23,7 @@ public class Home : MonoBehaviour
     {
         if (isStarted) return;
         isStarted = true;
-        int level = PrefInfo.GetTotalUnlockedLevel(0);
-        Controller.Instance.PlayChallenge(level, 0);
+        Controller.Instance.PlayChallenge(1, 0);
     }
     public void ActiveStressTest()
     {

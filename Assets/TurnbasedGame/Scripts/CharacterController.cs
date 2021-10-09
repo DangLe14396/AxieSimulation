@@ -16,6 +16,8 @@ public class CharacterController : MonoBehaviour
     MeshRenderer mr;
     [SerializeField]
     private Material outline,normal;
+    [SerializeField]
+    private BoxCollider2D bc2d;
 
     Vector3Int currentCell;
     Vector3 defaultScale;
@@ -63,6 +65,8 @@ public class CharacterController : MonoBehaviour
         defaultScale = _transform.localScale;
         defaultScale.x = defaultScale.x < 0 ? -defaultScale.x : defaultScale.x;
         mr = anim.GetComponent<MeshRenderer>();
+        bc2d = GetComponent<BoxCollider2D>();
+
     }
     private void Start()
     {
@@ -108,8 +112,15 @@ public class CharacterController : MonoBehaviour
         GameManager.Instance.Register(this);
         SetCurrentCell(GameManager.Instance.mainMap.WorldToCell(_transform.localPosition));
         anim.AnimationState.SetAnimation(0, idleAnim, true);
+        isTurnEnded = false;
+        bc2d.enabled = false;
+        Invoke(nameof(ActiveCollider), 0.3f);
     }
-  
+    void ActiveCollider()
+    {
+        bc2d.enabled = true;
+    }
+
     private void OnDisable()
     {
         if (GameManager.Instance == null) return;
